@@ -3,13 +3,13 @@ e=undefined
 function input1()
 {
     a=document.getElementById("num1").value
-    d=parseInt(a);
+    d=parseFloat(a);
     console.log(d);
 }
 function input2()
 {
     a=document.getElementById("num2").value
-    e=parseInt(a);
+    e=parseFloat(a);
     console.log(e);
 }
 x=undefined
