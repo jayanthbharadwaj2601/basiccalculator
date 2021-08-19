@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calcistyle.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <script src="computation.js"></script>
+    <div id="heading"><h1>Basic Calculator</h1></div>
+    <div id="calculator">
+        <div id="guide">Enter the numbers required:</div>
+    <div id="inputs">
+    <input type="text" id="num1" onchange="input1()">
+    <input type="text" id="num2" onchange="input2()">
+    </div>
+    <div id="operations">
+    <button id="addition" onclick="add()">+</button>
+    <button id="subtraction" onclick="subtract()">-</button>
+    <button id="multiplication" onclick="multiply()">x</button>
+    <button id="Division" onclick="divide()">/</button>
+    </div>
+    <p class="result">result</p>
+    </div>
+</body>
+</html>
